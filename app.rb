@@ -8,8 +8,8 @@ class App < Sinatra::Base
 
   post '/team' do
     team_name = params["name"]
-    team_name = params["name"]
-    team_name = params["name"]
+    coach = params["coach"]
+    team_name = params["pg"]
 
     erb :team
   end
